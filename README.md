@@ -17,6 +17,25 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 * Informacje o bazie danych:
   * Wyświetlanie ważnych informacji o każdej bazie, takich jak NIP (numer identyfikacji podatkowej) oraz typ księgowości (Rachmistrz, Rewizor, Ryczałt).
   * Śledzenie właścicieli baz: Automatyczne śledzenie właścicieli baz danych w odniesieniu do wybranego użytkownika.
+
+## Sposób użycia
+### Główne funkcjonalności:
+#### Ładowanie baz danych:
+
+1. Po uruchomieniu aplikacja łączy się z serwerem SQL i ładuje listę dostępnych baz danych.
+2. Każda baza danych wyświetla dodatkowe informacje, takie jak NIP, typ księgowości oraz inne szczegóły.
+#### Zarządzanie użytkownikami:
+
+1. Wybierz użytkownika z rozwijanej listy i przypisz go lub usuń z roli db_owner dla wybranych baz danych.
+2. Aplikacja automatycznie tworzy użytkownika w bazie, jeśli nie istnieje.
+3. Możesz całkowicie usunąć użytkownika z bazy danych.
+#### Operacje grupowe:
+
+Zaznacz kilka baz danych i wykonaj operacje grupowe, takie jak dodanie lub usunięcie użytkownika z wielu baz jednocześnie.
+
+#### Dodatkowe funkcje:
+Kopiowanie uprawnień użytkownika: Funkcja Kopiowanie użytkownika pozwala na skopiowanie uprawnień z jednego użytkownika do drugiego we wszystkich wybranych bazach danych.
+Filtrowanie baz danych: Użyj pola wyszukiwania, aby szybko znaleźć wybraną bazę po nazwie lub filtrować bazy dostępne dla wybranego użytkownika.
  
 ## Technologie:
 * C#: Język programowania używany do implementacji logiki aplikacji.
