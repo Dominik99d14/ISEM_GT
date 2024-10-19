@@ -44,6 +44,9 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 * ADO.NET: Używany do połączeń z bazą danych oraz wykonywania zapytań SQL.
 * Plik konfiguracyjny aplikacji: Przechowuje informacje o serwerze oraz użytkownikach, w tym zaszyfrowane hasło użytkownika SQL.
 
+## Instalacja i konfiguracja
+
+
 ## Licencja
 Ten projekt jest dostępny na licencji MIT. Zobacz plik LICENSE po więcej informacji.
 
