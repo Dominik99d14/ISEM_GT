@@ -31,11 +31,11 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 3. Możesz całkowicie usunąć użytkownika z bazy danych.
 #### Operacje grupowe:
 
-Zaznacz kilka baz danych i wykonaj operacje grupowe, takie jak dodanie lub usunięcie użytkownika z wielu baz jednocześnie.
+1. Zaznacz kilka baz danych i wykonaj operacje grupowe, takie jak dodanie lub usunięcie użytkownika z wielu baz jednocześnie.
 
 #### Dodatkowe funkcje:
-Kopiowanie uprawnień użytkownika: Funkcja Kopiowanie użytkownika pozwala na skopiowanie uprawnień z jednego użytkownika do drugiego we wszystkich wybranych bazach danych.
-Filtrowanie baz danych: Użyj pola wyszukiwania, aby szybko znaleźć wybraną bazę po nazwie lub filtrować bazy dostępne dla wybranego użytkownika.
+1. Kopiowanie uprawnień użytkownika: Funkcja Kopiowanie użytkownika pozwala na skopiowanie uprawnień z jednego użytkownika do drugiego we wszystkich wybranych bazach danych.
+2. Filtrowanie baz danych: Użyj pola wyszukiwania, aby szybko znaleźć wybraną bazę po nazwie lub filtrować bazy dostępne dla wybranego użytkownika.
  
 ## Technologie:
 * C#: Język programowania używany do implementacji logiki aplikacji.
