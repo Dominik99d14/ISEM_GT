@@ -17,3 +17,10 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 * Informacje o bazie danych:
   * Wyświetlanie ważnych informacji o każdej bazie, takich jak NIP (numer identyfikacji podatkowej) oraz typ księgowości (Rachmistrz, Rewizor, Ryczałt).
   * Śledzenie właścicieli baz: Automatyczne śledzenie właścicieli baz danych w odniesieniu do wybranego użytkownika.
+ 
+## Technologie:
+* C#: Język programowania używany do implementacji logiki aplikacji.
+* WPF (Windows Presentation Foundation): Technologia służąca do tworzenia interfejsu użytkownika.
+* SQL Server: System bazodanowy, którym zarządza aplikacja.
+* ADO.NET: Używany do połączeń z bazą danych oraz wykonywania zapytań SQL.
+* Plik konfiguracyjny aplikacji: Przechowuje informacje o serwerze oraz użytkownikach, w tym zaszyfrowane hasło użytkownika SQL.
