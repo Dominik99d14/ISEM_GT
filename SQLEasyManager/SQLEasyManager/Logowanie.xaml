@@ -1,0 +1,19 @@
+﻿<Window x:Class="SQLEasyManager.Logowanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ISEM - Insert SQL Easy Manager - Logowanie" Height="250" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Server:" />
+            <TextBox x:Name="ServerTextBox" Width="200" />
+
+            <Label Content="Username:" Margin="0,10,0,0" />
+            <TextBox x:Name="UsernameTextBox" Width="200" />
+
+            <Label Content="Password:" Margin="0,10,0,0" />
+            <PasswordBox x:Name="PasswordBox" Width="200" />
+
+            <Button Content="Login" Width="100" Margin="20,10,0,0" HorizontalAlignment="Center" Click="LoginButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

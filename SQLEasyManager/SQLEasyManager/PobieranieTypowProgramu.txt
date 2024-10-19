@@ -1,0 +1,27 @@
+﻿Insert GT:
+
+Gratyfiakant:
+	Tabela SQL: PD_Podmiot -> pd_TypKadr
+
+	Typ danych:
+		0-nieokreslone
+		1-małe kadry
+		mikroGratyfikant
+		2- duże kadry:GratyfikantGT  
+
+Rewizor/Rachmistrz:
+	Tabela SQL: PD_Podmiot -> pd_TypKsiegowosci
+
+	Typy danych:
+		0 - nieokreślony - NULL
+		1 - KPiR - Rachmistrz - RA
+		2 - ryczałt - RAR
+		3 - księga handlowa - Rewizor - RE
+		4 - UEPiK - Niespotykany typ 
+
+
+Insert NEXO
+Pobierane z bazy: InsERT_Launcher
+Tabela: InsLauncher.ProductMetadata
+
+Wyszukiwanie po nazwie bazy 

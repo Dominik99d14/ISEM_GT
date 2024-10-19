@@ -1,0 +1,9 @@
+﻿<Application x:Class="SQLEasyManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SQLEasyManager"
+             StartupUri="Logowanie.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

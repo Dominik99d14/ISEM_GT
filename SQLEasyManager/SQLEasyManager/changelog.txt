@@ -1,0 +1,6 @@
+﻿Versja 1.1
+- Wprowadzono ChangeLog
+- Wprowadfzono Menu opcji
+- Wprowadzono Informacje o programie
+- Usprawnienie filtracji
+- Usprawnienia wydajności

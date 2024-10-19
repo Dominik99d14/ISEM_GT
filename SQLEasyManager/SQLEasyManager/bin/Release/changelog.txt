@@ -1,0 +1,2 @@
+- Zapisywanie hasła do cfg programu
+- Przycisk zaznaczający bazy wybranego użytkownika

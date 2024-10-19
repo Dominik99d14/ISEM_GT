@@ -1,0 +1,16 @@
+﻿<Window x:Class="SQLEasyManager.Informacje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLEasyManager"
+        mc:Ignorable="d"
+        Title="Informacje" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Tytul" Content="ISEM - Insert SQL Easy Manager" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="780" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Tworca" Content="Twórca: Dominik Kowalczyk" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" Width="780" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label x:Name="WersjaLabel" Content="Wersja programu: Beta 0.23" HorizontalAlignment="Center" Margin="0,88,0,0" VerticalAlignment="Top" Width="780" FontSize="16" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <TextBlock x:Name="ChangeLogTextBox" HorizontalAlignment="Center" Margin="0,124,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="300" Width="780"/>
+
+    </Grid>
+</Window>

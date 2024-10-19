@@ -1,0 +1,18 @@
+﻿To Do list:
+
+- Wprowadzenie zmian w MainWindow opcji:
+	- Zaznacz wszystkie bazy
+	- Pokaż wszystkie bazy Nexo/GT
+	- Pokaż tylko bazy Gratyfikant/Rewizor/Rachmistrz 
+	- Poprawa widoku w tabelę
+	- Wprowadzenie kolumn jaki program jest podpięty pod bazę
+
+Co można zrobić w przyszłosci:
+- Eksport baz użytkownika do .csv
+- Pobieranie informacji o licencji bazy
+- Pokazywanie daty ostatniego użycia bazy
+- Data ostatniego logowania do bazy dnaych
+
+Podział na dwa programy jeden dla nexo drugi GT
+
+Program dla nexo powinien mieć możliwośc zarządzania bezpośrednio uprawnieniami i rolami uzytkowników (Bazy danyc tutaj są mnało warte)
