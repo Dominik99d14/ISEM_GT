@@ -1,2 +1,2 @@
-# ISEM_GT
-ISEM - Insert SQL Easy Manager
+# ISEM - Insert SQL Easy Manager dla Insert GT
+Opis programu
