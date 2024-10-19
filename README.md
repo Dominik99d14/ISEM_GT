@@ -46,7 +46,8 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 * Plik konfiguracyjny aplikacji: Przechowuje informacje o serwerze oraz użytkownikach, w tym zaszyfrowane hasło użytkownika SQL.
 
 ## Instalacja i konfiguracja
-
+Instalator programu znajduje się w folderze ISEM_GT/Instalator
+Program zapisuje dane logowania w pliku app.config (Hasło do baz danych jest szyfrwane) 
 
 ## Licencja
 Ten projekt jest dostępny na licencji MIT. Zobacz plik LICENSE po więcej informacji.
