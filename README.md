@@ -24,3 +24,18 @@ Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
 * SQL Server: System bazodanowy, którym zarządza aplikacja.
 * ADO.NET: Używany do połączeń z bazą danych oraz wykonywania zapytań SQL.
 * Plik konfiguracyjny aplikacji: Przechowuje informacje o serwerze oraz użytkownikach, w tym zaszyfrowane hasło użytkownika SQL.
+
+## Licencja
+Ten projekt jest dostępny na licencji MIT. Zobacz plik LICENSE po więcej informacji.
+
+## Współpraca
+Współpraca mile widziana! Jeśli chcesz wnieść swoje poprawki lub ulepszenia, wykonaj następujące kroki:
+
+* Sforkuj repozytorium.
+* Stwórz nową gałąź dla swojego rozwiązania.
+* Złóż pull request, abyśmy mogli przejrzeć zmiany.
+
+## Kontakt
+W razie pytań lub sugestii, proszę o kontakt:
+
+Dominik Kowalczyk: dominik99d14@gmail.com
