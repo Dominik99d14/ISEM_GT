@@ -1,3 +1,19 @@
 # ISEM - Insert SQL Easy Manager dla Insert GT
 ## Cel programu
 SQLEasyManager to aplikacja okienkowa stworzona w technologii WPF (Windows Presentation Foundation), która umożliwia zarządzanie bazami danych SQL Server poprzez przyjazny interfejs graficzny. Aplikacja umożliwia administratorom łatwe zarządzanie dostępami do baz danych, dodawanie i usuwanie użytkowników dla wybranych baz.
+## Funkjonalności
+* Wyświetlanie baz danych: Lista wszystkich baz danych SQL Server dostępnych na wybranym serwerze.
+* Zarządzanie użytkownikami:
+  * Dodawanie użytkowników do roli db_owner dla wybranych baz danych.
+  * Usuwanie użytkowników z roli db_owner.
+  * Automatyczne tworzenie użytkownika w bazie danych, jeśli nie istnieje.
+Usuwanie użytkownika z bazy danych po jego odłączeniu od roli db_owner.
+* Filtrowanie baz danych:
+  * Filtrowanie baz danych po nazwie.
+  * Filtrowanie baz danych z dostępem dla wybranego użytkownika.
+* Operacje grupowe:
+  * Dodawanie lub usuwanie użytkowników z wielu baz danych jednocześnie.
+  * Grupowe zaznaczanie lub odznaczanie baz danych.
+* Informacje o bazie danych:
+  * Wyświetlanie ważnych informacji o każdej bazie, takich jak NIP (numer identyfikacji podatkowej) oraz typ księgowości (Rachmistrz, Rewizor, Ryczałt).
+  * Śledzenie właścicieli baz: Automatyczne śledzenie właścicieli baz danych w odniesieniu do wybranego użytkownika.
